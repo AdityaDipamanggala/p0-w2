@@ -1,10 +1,8 @@
 function xo(str) {
-    var i = 0;
-    for (i; i<=str.length ; i++) {
-        if (str[i] = 'x') {break}
-    }
-    return xo
-  }
+   var banyakO = (str.match(/o/g) || []).length;
+   var banyakStr = str.length;
+   if (banyakO = banyakStr/2){return true}
+   else {return false}  }
   
   
   console.log(xo('xoxoxo')); 
