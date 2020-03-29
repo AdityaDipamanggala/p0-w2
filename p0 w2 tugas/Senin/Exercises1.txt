@@ -28,5 +28,15 @@
 
     DISPLAY "Pakaian sudah masuk ke mesin cuci"
 
-4.  Periksa Kuku (Misalkan )
+4.  Periksa Kuku 
 
+    STORE 'Jumlah Murid' with 40
+    STORE 'Panjang Kuku' with any value
+    
+    WHILE 'Jumlah Murid' < 41
+        ADD 'Jumlah Murid' by 1
+        
+        if 'Panjang Kuku' < 3 
+            DISPLAY 'Kuku kamu bagus dan rapih'
+        Else 
+            Display 'Kuku kamu harus dipotong'
