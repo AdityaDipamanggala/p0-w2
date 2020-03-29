@@ -1,0 +1,32 @@
+1. Hukum Newton
+
+    STORE "Resultan Gaya" with any value
+    STORE "Massa Benda" with 600
+    STORE "Percepatan Benda" with 2
+
+    CALCULATE "Massa Benda" times "Percepatan Benda"
+    SET "Resultan Gaya" value with calculation Resultan
+
+    DISPLAY "Resultan Gaya"
+
+2. Tahun Kabisat
+
+    STORE "Tahun" with any value
+
+    if "Tahun" mod 4 equals to 0 and "Tahun" mod 100 not equals to 0 or "Tahun" mod 400 equals to 0
+        DISPLAY "Tahun Kabisat"
+    Else 
+        DISPLAY "Bukan Tahun Kabisat"
+    Endif
+
+3. Laundry Day 
+
+    STORE "Jumlah Pakaian" with 0
+
+    WHILE "Jumlah Pakaian" < 21
+        ADD "Jumlah Pakaian" by 1
+
+    DISPLAY "Pakaian sudah masuk ke mesin cuci"
+
+4.  Periksa Kuku (Misalkan )
+
