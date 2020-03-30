@@ -1,7 +1,7 @@
 function xo(str) {
    var banyakO = (str.match(/o/g) || []).length;
    var banyakStr = str.length;
-   if (banyakO = banyakStr/2){return true}
+   if (banyakO == banyakStr/2){return true}
    else {return false}  }
   
   
